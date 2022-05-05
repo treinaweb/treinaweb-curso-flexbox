@@ -1,13 +1,9 @@
 .flex {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+    flex-flow: row nowrap;
     border: 3px solid black;
     background-color: #4e57ff4f;
     margin: 50px 20px;
-    height: 600px;
-    gap: 20px;
 }
 
 .item {
