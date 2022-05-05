@@ -4,6 +4,8 @@
     border: 3px solid black;
     background-color: #4e57ff4f;
     margin: 50px 20px;
+    height: 200px;
+    justify-content: center;
 }
 
 .item {
@@ -13,4 +15,20 @@
     margin: 0;
     font-size: 24px;
     font-weight: 900;
+}
+
+.start {
+    align-self: flex-start;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+.stretch {
+    align-self: stretch;
+}
+
+.center {
+    align-self: center;
 }
