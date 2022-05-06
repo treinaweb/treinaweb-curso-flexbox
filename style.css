@@ -19,14 +19,17 @@
 
 .start {
     align-self: flex-start;
+    flex-grow: 1;
 }
 
 .end {
     align-self: flex-end;
+    flex-grow: 2;
 }
 
 .stretch {
     align-self: stretch;
+    flex-grow: 4;
 }
 
 .center {
