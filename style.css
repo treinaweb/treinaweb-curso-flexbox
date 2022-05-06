@@ -20,18 +20,26 @@
 .start {
     align-self: flex-start;
     flex-grow: 1;
+    order: 0;
+}
+
+.second {
+    order: 4;
 }
 
 .end {
     align-self: flex-end;
     flex-grow: 2;
+    order: 1;
 }
 
 .stretch {
     align-self: stretch;
     flex-grow: 4;
+    order: 3;
 }
 
 .center {
     align-self: center;
+    order: 2;
 }
